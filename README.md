@@ -21,7 +21,7 @@ MIRTH_PASSWORD=your password
 version: "3"
 services:
   mirthexporter:
-    image: dspkd\prom-mirth-channel-exporter:latest
+    image: dspkd/prom-mirthchannelexporter:latest
     container_name: mirth-channel-exporter
     restart: always
     ports:
