@@ -1,4 +1,4 @@
-﻿# prom-mirth-channel-exporter
+﻿# mirth-channel-exporter as a docker-container
 
 ## The Exporter is coded by...
 https://github.com/teamzerolabs/mirth_channel_exporter
