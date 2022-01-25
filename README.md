@@ -1,5 +1,11 @@
 ﻿# prom-mirth-channel-exporter
 
+## The Exporter is coded by...
+https://github.com/teamzerolabs/mirth_channel_exporter
+
+## I need this in a docker-container
+https://hub.docker.com/r/dspkd/prom-mirthchannelexporter
+
 Run it via docker-compose.
 Create a .env file for the environment  variables in the same folder where your docker-compose.yaml is stored
 
