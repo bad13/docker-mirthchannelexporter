@@ -1,0 +1,12 @@
+version: "3"
+services:
+  mirthexporter:
+    image: dspkd/prom-mirthchannelexporter:latest
+    container_name: mirth_channel_exporter
+    restart: always
+    ports:
+      - '9141:9141'
+    environment:  
+      - MIRTH_ENDPOINT=${MIRTH_ENDPOINT}
+      - MIRTH_USERNAME=${MIRTH_USERNAME}
+      - MIRTH_PASSWORD=${MIRTH_PASSWORD}
